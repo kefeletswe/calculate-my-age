@@ -41,7 +41,7 @@ button {
 .outputs-wrapper div {
     height: 100px;
     width: 100px;
-    background-color: #080808;
+    background-color:#080808;
     border-radius: 5px;
     color: #ffffff;
     display: grid;
@@ -57,8 +57,13 @@ span {
 
 p {
     font-size: 14px;
-    color: #707070;
+    color: black;
     font-weight: 400;
+}
+#explain {
+    font-size: 150%;
+    text-align: center;
+    color: #080808;
 }
 
 .w3-center { text-align: center;
