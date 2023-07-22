@@ -48,6 +48,7 @@ body{
   text-align: center;
   width: 300px;
   margin: 0 auto;
+  height: 80px;
 }
 
 
@@ -58,7 +59,7 @@ body{
 }
 
 
-input{
+input[type=text]{
   width: 200px;
   margin: auto;
   outline: none;
@@ -70,8 +71,29 @@ input{
   padding: 3px;
 }
 
-input:hover{
+input[type=text]:hover{
   border: 2px solid darkblue;
+}
+
+
+input[type=button]{
+  width: 180px;
+  margin-left: 30%;
+  border-radius: 5px;
+  background-color: #0761b6;
+  outline: none;
+  border: none;
+  padding: 14px 16px;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+input[type=button]:hover{
+  background-color: yellow;
+  color: #0761b6;
+  border: 2px solid #0761b6;
+
 }
 /*.cal_app h1{
 display: flex;
