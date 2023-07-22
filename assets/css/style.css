@@ -35,6 +35,43 @@ body{
   border-radius: 10px;
 }
 
+
+.input_box{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: pink;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.date_title{
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+
+
+input{
+  width: 200px;
+  margin: auto;
+  outline: none;
+  min-height: 35px;
+  border: 2px solid blue;
+  border-radius: 2px;
+  color: blue;
+  font-size: 15px;
+  padding: 3px;
+}
+
+input:hover{
+  border: 2px solid darkblue;
+}
 /*.cal_app h1{
 display: flex;
 align-items: center;
