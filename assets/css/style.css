@@ -4,7 +4,7 @@ option to select date of birth
 output of age in years,days,weeks
 message that its your birthday if app is done on birdate*/
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -34,6 +34,17 @@ body{
   padding: 60px 30px 70px;
   border-radius: 10px;
 
+}
+
+
+.myApp h2{
+  display: flex;
+
+}
+
+span{
+  color: red;
+  padding-left: 5px; /*add space after word Shooping*/
 }
 
 
