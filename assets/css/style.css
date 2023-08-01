@@ -16,7 +16,7 @@ body{
 }
 
 
-.cal_container{
+.appContainer{
   background-color: purple;
   min-height: 100vh;
   width: 100%;
@@ -24,7 +24,7 @@ body{
 }
 
 
-.cal_app{
+.myApp{
   width: 100%;
   max-width: 540px;
   height: 400px;
